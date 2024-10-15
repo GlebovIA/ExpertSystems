@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ВИДЫ ТРЕНИРОВОК"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="#0097ff"
+            android:textStyle="bold"/>
+
+        <FrameLayout
+            android:id="@+id/flSpina"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom"
+            android:scaleType="centerCrop"
+            android:background="@drawable/spina" >
+
+            <TextView
+                android:id="@+id/tvSpina"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:text="Спина"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="bottom"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flBicepc"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bicepc" >
+
+            <TextView
+                android:id="@+id/tvBicepc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:text="Бицепц"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="bottom"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flTricepc"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom"
+            android:scaleType="centerCrop"
+            android:background="@drawable/tricepc" >
+
+            <TextView
+                android:id="@+id/tvTricepc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:text="Трицепц"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="bottom"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flIcronogniye"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom"
+            android:scaleType="centerCrop"
+            android:background="@drawable/icronogniye" >
+
+            <TextView
+                android:id="@+id/tvIcronogniye"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:text="Икроножные мышцы"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="bottom"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

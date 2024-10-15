@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0097ff">
+    android:background="#0097ff"
+    android:onClick="OnLayout">
 
     <TextView
         android:id="@+id/title"
@@ -37,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/tvVes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -63,10 +64,10 @@
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+        app:layout_constraintTop_toBottomOf="@+id/tvVes" />
 
     <TextView
-        android:id="@+id/tvSurname"
+        android:id="@+id/tvRost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -92,7 +93,7 @@
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSurname" />
+        app:layout_constraintTop_toBottomOf="@+id/tvRost" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton"
