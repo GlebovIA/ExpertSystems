@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0097ff"
-    android:onClick="OnLayout">
+    android:background="#0097ff">
 
     <TextView
         android:id="@+id/title"
@@ -104,6 +103,7 @@
         android:layout_marginBottom="100dp"
         android:background="@drawable/btn_style"
         android:text="Продолжить"
+        android:onClick="OnLayout"
         android:textColor="#0097ff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
